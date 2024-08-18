@@ -1,0 +1,15 @@
+{
+  "name": "algoritmos-aditya-bhargava",
+  "version": "1.0.0",
+  "description": "study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-ts": "tsc --project tsconfig.json"
+  },
+  "author": "Gabriel",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
