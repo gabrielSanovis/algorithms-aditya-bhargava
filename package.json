@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-ts": "tsc --project tsconfig.json"
+    "build-ts": "tsc --project tsconfig.json",
+    "start": "echo \"Use: npm run exec -- <caminho-do-exercicio>\"",
+    "exec": "ts-node"
   },
   "author": "Gabriel",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.5.4"
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
   }
 }
